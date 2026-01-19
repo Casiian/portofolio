@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="style.css">
+
+   <title>Portofolio</title>
+</head>
+<body>
+     <!-- NAVBAR-->
+      <nav>
+        <div class="left">
+            <a href="/">Suciu Casian</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/Casiian" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+            <a href="http://linkedin.com/in/suciu-casian-076862328" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+        </div>
+      </nav> 
+      <main>
+        <!-- SECTION 1: HERO-->
+         <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Casian!</h2>
+                <p>Hi, I’m Casian, a passionate front-end developer focused on creating responsive, user-friendly websites and web applications. With expertise in HTML, CSS, JavaScript, and React, I build interactive and visually appealing interfaces that deliver seamless user experiences. I’m always eager to learn new technologies and improve my skills, and I take pride in writing clean, efficient code. Let’s bring your ideas to life with beautiful and functional designs!</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/poza profil.webp" alt="poza">
+            </div>
+
+         </section>
+
+         <!-- SECTION 2: SKILLS-->
+         <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I’m a web developer skilled in HTML, CSS, JavaScript, Node.js, and React. I build responsive websites, dynamic user interfaces, and scalable back-end solutions with clean, maintainable code.            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                    <div class="cell">
+                        <img src="images/javascript-logo.webp" alt="javascript logo">
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="cell">
+                        <img src="images/node-logo.webp" alt="node logo">
+                        <span>Node.js</span>
+                    </div>
+
+                    <div class="cell">
+                        <img src="images/react-logo.webp" alt="react logo">
+                        <span>React.js</span>
+                    </div>
+            </div>
+         </section>
+
+         <!-- SECTION 3: CONTACT-->
+         <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+      
+            <div class="group">
+              <div class="text">
+                I’d love to hear from you. Whether you have a project in mind or need assistance with a front-end development challenge, feel free to reach out. You can contact me using the form below, and I’ll get back to you as soon as possible. Let’s create something great together!
+              </div>
+      
+              <form action="https://formsubmit.co/your@email.com" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+      
+                <label for="email">Email</label>
+                <input type="email" id="email">
+      
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+      
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </section>
+      </main>
+
+      <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+      <script src="script.js"></script>
+</body>
+</html>
